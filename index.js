@@ -10,17 +10,17 @@ function runCode() {
   var randomInteger1 = getRandomInt1(1, 6);
 
   if (randomInteger1 === 1) {
-    imageElement.src = './images/dice1.png';
+    imageElement.src = './dice1.png';
   } else if (randomInteger1 === 2) {
-    imageElement.src = './images/dice2.png';
+    imageElement.src = './dice2.png';
   } else if (randomInteger1 === 3) {
-    imageElement.src = './images/dice3.png';
+    imageElement.src = './dice3.png';
   } else if (randomInteger1 === 4) {
-    imageElement.src = './images/dice4.png';
+    imageElement.src = './dice4.png';
   } else if (randomInteger1 === 5) {
-    imageElement.src = './images/dice5.png';
+    imageElement.src = './dice5.png';
   } else if (randomInteger1 === 6) {
-    imageElement.src = './images/dice6.png';
+    imageElement.src = './dice6.png';
   }
 
   var imageElement = document.querySelector('.img2');
@@ -34,17 +34,17 @@ function runCode() {
     var randomInteger2 = getRandomInt2(1, 6);
 
   if (randomInteger2 === 1) {
-    imageElement.src = './images/dice1.png';
+    imageElement.src = './dice1.png';
   } else if (randomInteger2 === 2) {
-  imageElement.src = './images/dice2.png';
+  imageElement.src = './dice2.png';
   } else if (randomInteger2 === 3) {
-  imageElement.src = './images/dice3.png';
+  imageElement.src = './dice3.png';
   } else if (randomInteger2 === 4) {
-  imageElement.src = './images/dice4.png';
+  imageElement.src = './dice4.png';
   } else if (randomInteger2 === 5) {
-  imageElement.src = './images/dice5.png';
+  imageElement.src = './dice5.png';
   } else if (randomInteger2 === 6) {
-    imageElement.src = './images/dice6.png';
+    imageElement.src = './dice6.png';
   }
 
 if (randomInteger1 > randomInteger2) {
